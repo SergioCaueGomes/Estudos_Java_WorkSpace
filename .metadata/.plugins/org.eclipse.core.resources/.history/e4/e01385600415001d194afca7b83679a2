@@ -1,0 +1,36 @@
+package poo.model;
+
+public class Pessoa {
+	
+	private static final int TAMANHO_CPF = 11;
+	private static final int TAMANHO_CNPJ = 14;
+	
+	public enum TipoPessoa {FISISCA, JURIDICA}
+	
+	public Integer codigo;
+	public String  nome;
+	private String  documento;
+	public TipoPessoa pessoa;
+	
+	
+	public String getDocumento() {
+		return documento;
+	}
+	public void setDocumento(String documento) {
+		if(documento == null || documento.isEmpty()) {
+			throw new RuntimeException("Documento não pode ser nulo ou vazio");
+		}
+		
+		if(documento.length() == TAMANHO_CPF ) {
+			
+		}
+		
+		this.documento = documento;
+	}
+	
+	public TipoPessoa getTipo() {
+		return tipo;
+	}
+	
+	
+}
