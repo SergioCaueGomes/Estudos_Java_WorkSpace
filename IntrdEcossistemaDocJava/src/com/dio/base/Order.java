@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 public class Order {
 	
 	private final String code;
-	private final BigDecimal totalValue;
+	private final String totalValue;
 	
 
 	
@@ -23,10 +23,10 @@ public class Order {
 	/**
 	 * Construtor da Classe
 	 * @param code Código do Pedido
-	 * @param totalValue Valor total do pedido
+	 * @param "" Valor total do pedido
 	 * 
 	 */
-	public Order(String code, BigDecimal totalValue) {
+	public Order(String code, String totalValue) {
 		this.code = code;
 		this.totalValue = totalValue;
 	}
@@ -89,7 +89,7 @@ public class Order {
 			throw new RuntimeException("O pedido não pode ter valor negativo");
 		}
 
-		if(this.totalValue.compareTo(new BigDecimal(val="100.00")) > 0) {
+		if(this.totalValue.compareTo(new double(val="100.00")) > 0) {
 			return this.totalValue.multiply(new BigDecimal(val="0.99"));
 		}
 			

@@ -6,10 +6,9 @@ import com.dio.base.Order;
 
 public class MyFirstProgram {
 	
-	public static void main(String[] args) {
-		
-		
-		
+	public static void main(String[] args) {	
+		String code;
+		String totalValue;
 		Order order = new Order(code="code1234", totalValue="99.00");
 		System.out.println(order);
 	}
