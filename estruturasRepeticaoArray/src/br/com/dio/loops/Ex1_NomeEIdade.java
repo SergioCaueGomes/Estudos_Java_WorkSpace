@@ -18,14 +18,14 @@ public class Ex1_NomeEIdade {
 
         while (true) { //Enquando o loop for verdadeiro
             System.out.println("Nome: "); //Peça o nome
-            nome = scan.next(); //armazene esse nome na variável
+            nome = sc.next(); //armazene esse nome na variável
 
             if (nome.equals("0")) { //caso o nome igual a "0"
                 break; //interrompa o programa
             }
 
             System.out.println("Idade: "); //Peça a idade
-            idade = scan.nextInt(); //armazene a idade na variável
+            idade = sc.nextInt(); //armazene a idade na variável
 
             //imprima o nome e a idade
             System.out.println("Nome: " + nome + " - idade: " + idade);
