@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c57809e7-fe5e-46df-89ce-e2a581706ec4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex2/Caminhão.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex2/Carro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex2/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex2/Veiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex3/Faxineiro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex3/Funcionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex3/Gerente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex3/RodarAplicação.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex3/Vendedor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex4/ClasseFilha1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex4/ClasseFilha2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex4/ClasseMae.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex4/RodarAplicacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../pooDio/src/br/com/dio/poo/exercicios/ex5/OperacaoMatematica.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/out/production/programacao_orientada_objeto-dio/br/com/dio/poo/exercicios/Carro.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/out/production/programacao_orientada_objeto-dio/br/com/dio/poo/exercicios/RodarAplicacao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/programacao_orientada_objeto-dio.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/src/br/com/dio/poo/exercicios/Carro.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../teste/src/br/com/dio/poo/exercicios/RodarAplicacao.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2EidsvT64ML11ZkweJcTrFK3xlf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/sergio/IdeaProjects/spring-web-mvc",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c57809e7-fe5e-46df-89ce-e2a581706ec4" name="Changes" comment="" />
+      <created>1663082548834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663082548834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

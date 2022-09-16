@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <title>Users</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+</head>
+
+<body style="background-color:#002333; color: #DEEFE7;">
+
+
+<div class="Container container" style="display:flex; align-items: center; justify-content: center; flex-direction: column; margin-top:150px; border: 2px solid #DEEFE7; border-radius: 5px; background-color:#B4BEC9; color: #DEEFE7;">
+  <div th:if="${message}" th:text="${message}" th:class="${'alert ' + alertClass}" style="color: green; font-size: 25px;"/>
+<h1>Users</h1>
+
+<table class="table" style="border: 2px solid #DEEFE7; color: #002333;">
+  <tr>
+    <th scope="col" style="background-color:#159A9C; color: #002333;">ID</th>
+    <th scope="col" style="background-color:#159A9C; color: #002333;">NAME</th>
+    <th scope="col" style="background-color:#159A9C; color: #002333;">LASTNAME</th>
+    <th scope="col" style="background-color:#159A9C; color: #002333;">AÇÕES</th>
+  </tr>
+  <tr th:each="user : ${allUser}">
+    <td th:text="${user.id}"></td>
+    <td th:text="${user.name}"> </td>
+    <td th:text="${user.lastName}"> </td>
+    <td style="margin: 5px;">
+      <a th:href="@{/user/__${user.id}__/delete}" onClick="return confirm('Delete?')">Delete</a>
+      <a th:href="@{/user/__${user.id}__/update}">Update</a>
+    </td>
+
+  </tr>
+</table>
+
+<br>
+<div>
+<a href="#" th:href="@{/new-user}">New User </a> | <a href="#" th:href="@{/user}"> All Users</a>
+</div>
+<div style="display: flex; margin: 5px;">
+<form th:action="@{/search}"  method="get" class="row g-3 needs-validation" novalidate>
+  <input type="text" name="name" class="form-control" id="validationCustom03" value="Search"/> <button class="btn btn-primary" type="submit" >Search</button>
+</form>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+</body>
+</html>
